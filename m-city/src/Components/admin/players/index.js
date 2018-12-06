@@ -56,13 +56,15 @@ class AdminPlayers extends Component {
                                                 </Link>
                                             </TableCell>
                                             <TableCell>
-                                              
+                                                <Link to={`/admin_players/add_players/${player.id}`}>
+                                                    {player.lastname}
+                                                </Link>                                             
                                             </TableCell>
                                             <TableCell>
-                                                
+                                                {player.number}
                                             </TableCell>
                                             <TableCell>
-
+                                                {player.position}
                                             </TableCell>
                                         </TableRow>
                                     ))

@@ -400,6 +400,7 @@ class AddEditMatch extends Component {
                                 {this.state.formType}
                             </button>
                         </div>
+                        
                         </form>
                     </div>
                 </div> 
